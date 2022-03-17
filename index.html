@@ -2,22 +2,25 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>World Time</title>
 </head>
 
 <body>
     <main>
         <div class="container">
-            <div class="time">00:00:00 AM</div>
-            <div class="greetings">Hello Aliaksandr</div>
+            <div id="timer" class="time">00:00:00 AM</div>
+            <h1>
+                <span id="greeting" class="greetings"></span>
+                <span id="name" contenteditable="true"></span>
+            </h1>
             <div class="plan">what are your plans for the day?</div>
+            <span id="enter" contenteditable="true"></span>
         </div>
-
     </main>
 </body>
 <script src="./script.js"></script>

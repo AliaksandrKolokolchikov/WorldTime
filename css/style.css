@@ -11,8 +11,6 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
 
-    background-image: url(../img/150297-gora-heshteg-poslesvechenie-voshod_solnca-zakat-1920x1080.jpg);
-
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -50,7 +48,7 @@ button {
     justify-content: center;
     align-items: center;
 
-    width: 400px;
+    width: 450px;
     padding: 15px;
 }
 .time {
